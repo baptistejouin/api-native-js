@@ -1,0 +1,41 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: sans-serif;
+}
+.container {
+	width: min(60ch, 100vw - 2rem);
+	margin: 3rem auto;
+}
+.form-input {
+	margin-top: 18px;
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+}
+input[type='number'] {
+	padding: 6px 12px;
+	font: inherit;
+	border-radius: 0;
+	border: 1px solid black;
+}
+.response {
+	margin-top: 32px;
+}
+table,
+td,
+th {
+	border: 1px solid;
+}
+td,
+th {
+	text-align: left;
+	padding: 6px 12px;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>API code postal</title>
+		<link rel="stylesheet" href="style.css" />
+		<!-- import de Chart.js -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js" integrity="sha512-QSkVNOCYLtj73J4hbmVoOV6KVZuMluZlioC+trLpewV8qMjsWqlIQvkn1KGX2StWvPMdWGBqim1xlC8krl1EKQ==" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
+		<script src="./app.js" defer></script>
+	</head>
+	<body>
+		<div class="container">
+			<form action="">
+				<div class="form-input">
+					<input type="text" id="js-input-query" placeholder="Enter a city name" />
+					<button type="submit" id="js-submit">Afficher</button>
+				</div>
+				<p class="error" id="js-error">Aucun résultat trouvée pour "<span id="js-error-text"></span>"</p>
+			</form>
+			<canvas id="js-canvas" aria-label="chart" role="img"></canvas>
+		</div>
+	</body>
+</html>

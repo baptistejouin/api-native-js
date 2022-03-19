@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>API code postal</title>
+		<link rel="stylesheet" href="style.css" />
+		<script src="./app.js" defer></script>
+	</head>
+	<body>
+		<div class="container">
+			<h1>API code postal</h1>
+			<div class="form-input">
+				<label for="zip_number">Code postal</label>
+				<input type="number" name="zip_number" id="codePostal" step="10" placeholder="eg. 44000" />
+			</div>
+			<div class="response" id="response" style="visibility: hidden">
+				<table>
+					<thead>
+						<tr>
+							<th>Nom</th>
+							<th>Département</th>
+							<th>Région</th>
+							<th>Population</th>
+						</tr>
+					</thead>
+					<tbody></tbody>
+				</table>
+			</div>
+		</div>
+	</body>
+</html>
